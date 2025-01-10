@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="css/home.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="images/logo.png" alt="Logo"></a>
+
+        <nav class="navbar">
+            <a href="home.html" class="active">Home</a>
+            <a href="#" id="postLink">Post</a>
+            <a href="#" id="logoutLink">Logout</a>
+        </nav>
+
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="post-container" id="postContainer">
+            <!-- Posts will be dynamically inserted here -->
+        </div>
+
+        <div class="comment-section" id="commentSection" style="display: none;">
+            <h2>Comments</h2>
+            <div id="comments"></div>
+            <textarea id="commentInput" placeholder="Add a comment..."></textarea>
+            <button id="addComment">Add Comment</button>
+        </div>
+
+        <div class="post-form" id="postForm" style="display: none;">
+            <h2>Create a Post</h2>
+            <input type="text" id="postTitle" placeholder="Post Title">
+            <textarea id="postContent" placeholder="Post Content"></textarea>
+            <button id="submitPost">Submit Post</button>
+        </div>
+    </main>
+
+    <script src="script/blog.js"></script>
+</body>
+</html>
