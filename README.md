@@ -1,2 +1,3 @@
 # Blog
-Atvi Blog design 1 
+- day 3 create a design search and select, and also learn about flexbox 
+- 
