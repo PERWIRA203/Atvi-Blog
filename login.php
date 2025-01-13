@@ -38,10 +38,10 @@
                             $_SESSION['username'] = $row['username'];
                             $_SESSION['id'] = $row['id'];
                         } else {
-                            echo "<div>
-                            <p class='message'>Wrong username or password</p>
+                            echo "<div class='message'>
+                            <p>Wrong username or password</p>
                             </div> <br>";
-                            echo "<a href='index.php'><button class='btn'>Go Back</button>";
+                            echo "<a href='login.php'><button class='btn'>Go Back</button>";
 
                         }
                         if (isset($_SESSION['valid'])){
