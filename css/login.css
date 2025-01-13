@@ -22,6 +22,14 @@
     border-radius:  10px 0 0 10px;
     position: relative;
 }
+.logo {
+    font-size: 10px;
+    color: #222;
+    display: flex;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
 .row{
   width:  900px;
   height:550px;

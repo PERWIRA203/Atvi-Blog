@@ -14,8 +14,8 @@
         <a href="#" class="logo">Atvi Blog.</a>
 
         <nav class="navbar">
-            <a href="index.html" class="active">Home</a>
-            <a href="about.php" id="postLink">About Us</a>
+            <a href="index.php">Home</a>
+            <a href="about.php" class="active">About Us</a>
             <a href="#">Contact</a>
             <a href="login.php">Login</a>
         </nav>
