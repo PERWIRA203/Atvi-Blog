@@ -16,15 +16,15 @@
     <title>Blog Website</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" rel="stylesheet" />
-    <link href="../css/home.css" rel="stylesheet">
+    <link href="../css/post.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <a href="#" class="logo">Atvi Blog.</a>
 
         <nav class="navbar">
-            <a href="home.php" class="active">Home</a>
-            <a href="post.php" id="postLink">Post</a>
+            <a href="home.php">Home</a>
+            <a href="post.php" id="postLink" class="active">Post</a>
             <a href="account.php" id="account">Account</a>
         </nav>
 
@@ -34,24 +34,13 @@
             <a href="#"><i class='bx bxl-instagram'></i></a>
         </div>
     </header>
-
-    <section class="search_and_sort">
-            <nav class="navbar">
-                <a href="home.php" class="active">All</a>
-                <a href="home.php">Technology</a>
-                <a href="home.php">Lifestyle</a>
-                <a href="home.php">Education</a>
-                <a href="home.php">Disaster</a>
-                <a href="home.php">Health</a>
-            </nav>
-            <form action="index.php">
-                <input type="search" name="search" aria-label="Search" placeholder="Search" class="search">
-                <button type="submit" name="search_button" class="button-search">Search</button>
-            </form>
+    <section class="new_post">
+        <form action="" method="post">
+            <input class="btn" type="submit" name="new_post">
+        </form>
     </section>
+    <section class="your_post">
 
-    <section class="posts">
-        <p>post 1</p>
     </section>
 </body>
 </html>
