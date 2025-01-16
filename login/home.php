@@ -36,7 +36,7 @@
     </header>
 
     <section class="search_and_sort">
-            <nav class="navbar">
+            <nav class="category">
                 <a href="home.php" class="active">All</a>
                 <a href="home.php">Technology</a>
                 <a href="home.php">Lifestyle</a>

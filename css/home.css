@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -27,6 +29,7 @@ body {
     color: #222;
     text-decoration: none;
     font-weight: 600;
+    border-style: d;
 }
 .navbar a {
     font-size: 18px;
@@ -80,6 +83,8 @@ body {
 }
 .search_and_sort {
     width: 100%;
+    height: 40vh;
+    padding: 20px 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,6 +96,10 @@ body {
     font-weight: 500;
     margin: 0 20px;
     transition: 0.3s;
+}
+
+.category a:hover, .category a.active {
+    color: rgba(37, 95, 156, 0.937);
 }
 
 .search {
