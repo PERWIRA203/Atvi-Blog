@@ -20,38 +20,15 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Atvi Blog.</a>
-
+        <div class="logo"></div>
         <nav class="navbar">
-            <a href="home.php" class="active">Home</a>
-            <a href="post.php" id="postLink">Post</a>
-            <a href="account.php" id="account">Account</a>
+            <div class="search">
+
+            </div>
+            <div class="navigate">
+
+            </div>
         </nav>
-
-        <div class="social-media">
-            <a href="#"><i class='bx bxl-twitter'></i></a>
-            <a href="#"><i class='bx bxl-facebook'></i></a>
-            <a href="#"><i class='bx bxl-instagram'></i></a>
-        </div>
     </header>
-
-    <section class="search_and_sort">
-            <nav class="category">
-                <a href="home.php" class="active">All</a>
-                <a href="home.php">Technology</a>
-                <a href="home.php">Lifestyle</a>
-                <a href="home.php">Education</a>
-                <a href="home.php">Disaster</a>
-                <a href="home.php">Health</a>
-            </nav>
-            <form action="index.php">
-                <input type="search" name="search" aria-label="Search" placeholder="Search" class="search">
-                <button type="submit" name="search_button" class="button-search">Search</button>
-            </form>
-    </section>
-
-    <section class="posts">
-        <p>post 1</p>
-    </section>
 </body>
 </html>

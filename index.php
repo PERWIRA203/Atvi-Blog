@@ -19,12 +19,6 @@
             <a href="#">Contact</a>
             <a href="login.php">Login</a>
         </nav>
-
-        <div class="social-media">
-            <a href="#"><i class='bx bxl-twitter'></i></a>
-            <a href="#"><i class='bx bxl-facebook'></i></a>
-            <a href="#"><i class='bx bxl-instagram'></i></a>
-        </div>
     </header>
 </body>
 </html>
