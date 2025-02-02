@@ -1,12 +1,3 @@
-<?php 
-   session_start();
-
-   include("../php/config.php");
-   if(!isset($_SESSION['valid'])){
-    header("Location: ../login.php");
-   }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,19 +7,23 @@
     <title>Blog Website</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" rel="stylesheet" />
-    <link href="../css/home.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="logo"></div>
+<header class="header">
+        <h1>Atvi Blog.</h1>
+
         <nav class="navbar">
-            <div class="search">
-
-            </div>
-            <div class="navigate">
-
-            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
         </nav>
-    </header>
+        <form action="">
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button type="submit">search</button>
+        </form>
+    </header>  
 </body>
 </html>
